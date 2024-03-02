@@ -1,0 +1,11 @@
+# Project exclude paths
+/.gradle/
+/build/
+/caching-backend/build/
+/caching-backend/build/classes/kotlin/main/
+/exposed-backend/build/
+/exposed-backend/build/classes/kotlin/main/
+/models/build/
+/models/build/classes/kotlin/main/
+/server/build/
+/server/build/classes/kotlin/main/

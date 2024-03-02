@@ -1,0 +1,17 @@
+version: "1"
+services:
+  postgres:
+    container_name: musik-container
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "postgres"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "12345"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - mydb-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  mydb-data:

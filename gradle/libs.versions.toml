@@ -1,0 +1,63 @@
+#[versions]
+#kotlinx-uuid-core = "0.0.17"
+#postgresql = "42.5.4"
+#cache4k = "0.9.0"
+#kotlinx-serialization-json = "1.4.1"
+#kotlinx-coroutines-core = "1.6.4"
+#kotlinx-datetime = "0.4.0"
+#arrow-core = "1.1.2"
+#arrow-fx-coroutines = "1.1.2"
+#ktor-resources = "2.3.0"
+#ktor-serialization-kotlinx-json = "2.3.0"
+#ktor-server-core = "2.3.0"
+#ktor-server-netty = "2.3.0"
+#ktor-server-resources = "2.3.0"
+#ktor-server-status-pages = "2.3.0"
+#ktor-client-core = "2.3.0"
+#ktor-client-cio = "2.3.0"
+#ktor-client-resources = "2.3.0"
+#ktor-client-content-negotiation = "2.3.0"
+#koin-core = "3.3.3"
+#koin-annotations = "1.1.1"
+#koin-ksp-compiler = "1.1.1"
+#exposed-core = "0.40.1"
+#exposed-dao = "0.40.1"
+#exposed-jdbc = "0.40.1"
+#exposed-kotlin-datetime = "0.40.1"
+#symbol-processing-api = "1.8.10-1.0.9"
+#ksp = "1.8.10-1.0.9"
+#kotlin = "1.8.10"
+#[libraries]
+#kotlinx-uuid-core = { group = "app.softwork", name = "kotlinx-uuid-core", version.ref = "kotlinx-uuid-core" }
+#postgresql = { group = "org.postgresql", name = "postgresql", version.ref = "postgresql" }
+#cache4k = { group = "io.github.reactivecircus.cache4k", name = "cache4k", version.ref = "cache4k" }
+#kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+#kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+#kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinx-datetime" }
+#arrow-core = { group = "io.arrow-kt", name = "arrow-core", version.ref = "arrow-core" }
+#arrow-fx-coroutines = { group = "io.arrow-kt", name = "arrow-fx-coroutines", version.ref = "arrow-fx-coroutines" }
+#ktor-resources = { group = "io.ktor", name = "ktor-resources", version.ref = "ktor-resources" }
+#ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor-serialization-kotlinx-json" }
+#ktor-server-core = { group = "io.ktor", name = "ktor-server-core", version.ref = "ktor-server-core" }
+#ktor-server-netty = { group = "io.ktor", name = "ktor-server-netty", version.ref = "ktor-server-netty" }
+#ktor-server-resources = { group = "io.ktor", name = "ktor-server-resources", version.ref = "ktor-server-resources" }
+#ktor-server-status-pages = { group = "io.ktor", name = "ktor-server-status-pages", version.ref = "ktor-server-status-pages" }
+#ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor-client-core" }
+#ktor-client-cio = { group = "io.ktor", name = "ktor-client-cio", version.ref = "ktor-client-cio" }
+#ktor-client-resources = { group = "io.ktor", name = "ktor-client-resources", version.ref = "ktor-client-resources" }
+#ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor-client-content-negotiation" }
+#koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin-core" }
+#koin-annotations = { group = "io.insert-koin", name = "koin-annotations", version.ref = "koin-annotations" }
+#koin-ksp-compiler = { group = "io.insert-koin", name = "koin-ksp-compiler", version.ref = "koin-ksp-compiler" }
+#exposed-core = { group = "org.jetbrains.exposed", name = "exposed-core", version.ref = "exposed-core" }
+#exposed-dao = { group = "org.jetbrains.exposed", name = "exposed-dao", version.ref = "exposed-dao" }
+#exposed-jdbc = { group = "org.jetbrains.exposed", name = "exposed-jdbc", version.ref = "exposed-jdbc" }
+#exposed-kotlin-datetime = { group = "org.jetbrains.exposed", name = "exposed-kotlin-datetime", version.ref = "exposed-kotlin-datetime" }
+##symbol-processing-api = { group = "com.google.devtools.ksp", name = "symbol-processing-api", version.ref = "symbol-processing-api" }
+#ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+#
+#[plugins]
+#kotlin-jvm = { id = "jvm", version.ref = "kotlin" }
+#serialization = { id = "plugin.serialization", version.ref = "kotlin" }
+#ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+#
